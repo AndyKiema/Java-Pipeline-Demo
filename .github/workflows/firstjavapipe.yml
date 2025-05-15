@@ -24,4 +24,4 @@ jobs:
       run: mvn -B package --file first-ci-demo/pom.xml
 
     - name: Run tests
-      run: mvn test
+      run: mvn -f first-ci-demo/pom.xml test
